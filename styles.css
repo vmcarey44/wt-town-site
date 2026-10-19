@@ -1,0 +1,134 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+h1 {
+    background-color: #415a77;
+    border-radius: 5px;
+    padding: 4px 8px 4px 8px;
+    border: 1px solid #e0e1dd;
+    font-size: 35px;
+}
+
+h2 {
+    background-color: #778da9;
+    border: 5px;
+    padding: 4px 8px 4px 8px;
+    border: 1px solid #e0e1dd;
+}
+
+h3 {
+    color: #0d1b2a; 
+    font-size: 25px;
+    
+}
+
+h4 {
+    color: #e0e1dd;
+    font-size: 15px;
+}
+
+p {
+    color: #1b263b; 
+    padding: 4px;
+}
+
+
+
+.act-id {
+    margin: 0;
+    padding: 20px;
+}
+
+.hero-sec {
+    color: #e0e1dd;
+    margin: 0;
+    background-image: url('/images/park-aerial.jpg');
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+
+.activities-sect {
+    background-color: #778DA9;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.act-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;  
+               
+}
+
+.act-card img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 150px;
+    width: 150px;
+    border: 1px solid #1b263b;
+}
+
+
+.act-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    gap: 16px;
+    align-items: baseline;
+}
+
+#act-head {
+    margin-top: 0px;
+    padding-top: 18px;
+    font-size: 18pt;
+}
+
+.guide-card{
+    color: #1b263b;
+    background-color: #778da9;
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    border-radius: 5px;
+    border: 1px solid #1b263b;   
+    max-width: 50%;       
+}
+
+.vince-avatar {
+    max-height: 200px;
+    margin: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.act-card p {
+    margin-top: 8px;
+    text-align: center;
+    display: flex;
+    size: 20px;  
+}  
+
+.bottom-section {
+    background-color: #E0E1DD;
+    padding: 16px 8px 16px 8px;
+}
