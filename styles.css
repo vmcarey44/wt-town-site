@@ -1,17 +1,12 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 body {
     margin: 0;
     text-align: center;
     height: 100vh;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
 h1 {
@@ -19,7 +14,7 @@ h1 {
     border-radius: 5px;
     padding: 4px 8px 4px 8px;
     border: 1px solid #e0e1dd;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 h2 {
@@ -27,22 +22,25 @@ h2 {
     border: 5px;
     padding: 4px 8px 4px 8px;
     border: 1px solid #e0e1dd;
+    font-size: 32px;
 }
 
 h3 {
     color: #0d1b2a; 
-    font-size: 25px;
+    font-size: 30px;
     
 }
 
 h4 {
     color: #e0e1dd;
-    font-size: 15px;
+    font-size: 20px;
+    ;
 }
 
 p {
     color: #1b263b; 
     padding: 4px;
+    font-size: 18px;
 }
 
 
@@ -98,7 +96,7 @@ p {
 #act-head {
     margin-top: 0px;
     padding-top: 18px;
-    font-size: 18pt;
+    font-size: 30px;
 }
 
 .guide-card{
@@ -111,12 +109,13 @@ p {
     justify-content: space-around;
     border-radius: 5px;
     border: 1px solid #1b263b;   
-    max-width: 50%;       
+    max-width: 50%;   
+    max-height: fit-content;    
 }
 
 .vince-avatar {
     max-height: 200px;
-    margin: 10px;
+    margin: 10px 15px 10px 15px;
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -126,7 +125,7 @@ p {
     margin-top: 8px;
     text-align: center;
     display: flex;
-    size: 20px;  
+    font-size: 18px;  
 }  
 
 .bottom-section {
